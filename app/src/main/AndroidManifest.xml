@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dingke.transwel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Transwel"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home" />
+        <activity
+            android:name=".Hindi_Meals"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity
+            android:name=".Hindi_Basic"
+            android:parentActivityName=".Home"
+            ></activity>
+            <meta-data
+                android:name="anroid.support.PARENT_ACTIVITY"
+                android:value=".Activity2"
+            />
+        <activity android:name=".Hindi_Travel"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Hindi_Shopping"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Hindi_Numbers"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Chinese_Basic"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Chinese_Meals"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Chinese_Travel"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Chinese_Shopping"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Chinese_Numbers"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Irish_Basic"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Irish_Meals"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Irish_Travel"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Irish_Shopping"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".Irish_Numbers"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".French_Basic"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".French_Meals"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".French_Travel"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".French_Shopping"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+        <activity android:name=".French_Numbers"
+            android:parentActivityName=".Home"
+            ></activity>
+        <meta-data
+            android:name="anroid.support.PARENT_ACTIVITY"
+            android:value=".Activity2"
+            />
+    </application>
+
+</manifest>
